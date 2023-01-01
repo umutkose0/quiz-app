@@ -1,0 +1,80 @@
+{"quiz":
+{
+    "quizId":"0",
+    "title":"Only true fans of 'The Office' will answer these questions!",
+    "subtitle":"It's time to test your admiration level.",
+    "questions":[
+        {
+            "id":"0",
+            "question":"Let's start off easy, who's this?",
+            "image":"https://live.staticflickr.com/50/280815459_21d2efe168_w.jpg",
+            "options":[
+                {
+                "id":"0",
+                "text":"Ryan"
+                 
+                },
+                {
+                "id":"1",
+                "text":"Andy"
+                },
+                {
+                "id":"2",
+                "text":"Kevin"
+                }
+            ],
+            "answerId":"2"
+        },
+        {
+            "id":"1",
+            "question":"You know this right?",
+            "image":"https://live.staticflickr.com/3129/2546333090_487e102ff5_w.jpg",
+            "options":[
+                {
+                "id":"0",
+                "text":"Micheal"
+                 
+                },
+                {
+                "id":"1",
+                "text":"Dwight"
+                },
+                {
+                "id":"2",
+                "text":"Roy"
+                }
+            ],
+            "answerId":"1"
+        },
+        {
+            "id":"2",
+            "question":"have you seen this?",
+            "image":"https://live.staticflickr.com/7207/6859918833_074a186db5_w.jpg",
+            "options":[
+                {
+                "id":"0",
+                "text":"Creed"
+                 
+                },
+                {
+                "id":"1",
+                "text":"Adam"
+                },
+                {
+                "id":"2",
+                "text":"Andy"
+                }
+            ],
+            "answerId":"2"
+        }
+    ],
+    "result":{
+        "failed":"You need to watch again :D",
+        "passed":"Impressive!! You are a true fan."
+    }
+}
+}
+
+
+
+

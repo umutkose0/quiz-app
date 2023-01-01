@@ -1,13 +1,62 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+body{
+  font-family: 'Roboto Slab', serif;
+  display:flex;
+  justify-content: center;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root,.App{
+  width: 80%;
+}
+.title{
+  padding:20px 0px;
+}
+h1{
+  
+}
+.question{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.options{
+  margin-top:20px;
+}
+.option{
+  color:black;
+  font-weight: bold;
+  font-size: large;
+  padding:15px 15px;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  margin:10px 0px;
+  cursor:pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.option:hover{
+  transform: scale(1.01);
+  transition: .05s;
+}
+.true{
+  background-color: green;
+  color:white;
+}
+.false{
+  background-color: red;
+  color:white;
+}
+.passed{
+  background-color:blueviolet;
+}
+.failed{
+  background-color:brown;
+}
+.result{
+  color:white;
+  border-radius: 5px;
+  margin-bottom:150px;
+  padding:20px 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
 }
