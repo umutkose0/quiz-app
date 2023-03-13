@@ -38,7 +38,6 @@ function App() {
     if(count==quiz.questions.length)
     {
       setFinished(true);
-      window.scroll(0,document.scrollingElement.scrollHeight)
     }
   },[count])
   return (

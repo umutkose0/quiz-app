@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const ResultBlock=({count,score,passed,failed})=>{
+    useEffect(()=>{
+      window.scroll({left:0,top:document.scrollingElement.scrollHeight,behavior:"smooth"})
+    },[])
     console.log((100/count)*score)
     return (100/count)*score>50? 
     <div name="result" className="passed result">
